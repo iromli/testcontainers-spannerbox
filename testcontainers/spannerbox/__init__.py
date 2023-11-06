@@ -2,7 +2,7 @@ from typing import Any
 
 from testcontainers.core.container import DockerContainer
 
-_SPANNERBOX_DEFAULT_IMAGE = "iromli/spannerbox:1.0.1"
+_SPANNERBOX_DEFAULT_IMAGE = "iromli/spannerbox:1.0.2"
 
 
 class SpannerboxContainer(DockerContainer):  # type: ignore
